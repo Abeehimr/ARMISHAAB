@@ -42,6 +42,21 @@ a {
   color: #d9d9d9;
   transition: 0.3s ease;
 }
+._ {
+  position: relative;
+}
+._:active::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://github.com/Abeehimr/eggs/blob/main/pop.gif?raw=true') center center no-repeat;
+  background-size: flex;
+  z-index: 1;
+}
+
 .headerItemmain:hover {
   transform: scale(1.2);
 }

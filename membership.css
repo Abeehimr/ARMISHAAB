@@ -41,6 +41,21 @@ a {
 .headerItemmain:hover {
   transform: scale(1.2);
 }
+._ {
+  position: relative;
+}
+._:active::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://github.com/Abeehimr/eggs/blob/main/skate.gif?raw=true') center center no-repeat;
+  background-size: flex;
+  z-index: 1;
+}
+
 .logo {
   display: flex;
   flex-direction: row;

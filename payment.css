@@ -54,6 +54,21 @@ a {
   flex: 1;
   position: relative;
 }
+._ {
+  position: relative;
+}
+._:active::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://github.com/Abeehimr/eggs/blob/main/maxwell.gif?raw=true') center center no-repeat;
+  background-size: flex;
+  z-index: 1;
+}
+
 .cheader {
   align-self: stretch;
   flex: 1;
