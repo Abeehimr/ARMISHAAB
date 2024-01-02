@@ -14,7 +14,7 @@ a {
   object-fit: cover;
   transition: 0.3s ease;
 }
-.logo :hover {
+.logo-icon :hover {
   transform: scale(1.2);
 }
 .headerItem {

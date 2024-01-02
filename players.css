@@ -249,7 +249,7 @@ a {
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   padding: 20px 40px;
   box-sizing: border-box;
@@ -328,20 +328,7 @@ box-shadow: 0 0 20px rgba(5, 242, 108, 0.2);
   justify-content: flex-start;
   gap: 30px;
 }
-.stbox3 {
-  flex: 1;
-  border-radius: 0 19px 19px 0;
-  background-color: #1e1e1e;
-  height: 206px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 40px;
-  box-sizing: border-box;
-  font-size: 25px;
-}
+
 .nbox7 {
   flex: 1;
   border-radius: 0 0 0 19px;
